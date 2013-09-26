@@ -1,0 +1,64 @@
+.main-body{
+	margin-top: 20px;
+}
+
+.com-logo {
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.com-logo img{
+	height: 50px;
+	width: 50px;
+}
+.com-logo a:hover{
+	text-decoration: none;
+}
+.nav-items {
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    width: 44%;
+}
+.nav-items ul.item-list{
+	height: 243px;
+	margin-top: -42.5%;
+	margin-left: 60%;
+	width: 100px;
+	border-top: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.nav-items ul li{
+	display: inline;
+	padding-right: 26px;
+}
+.nav-items ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 0px;
+}
+.nav-items ul li a:hover{
+	background-color: white;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+.header-content{
+	/*background-color: yellow;*/
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 18%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(18%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eeeeee 18%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eeeeee 18%,#cccccc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eeeeee 18%,#cccccc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eeeeee 18%,#cccccc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    height: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: 10px 10px 5px #888888;
+}
